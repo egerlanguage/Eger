@@ -1,0 +1,10 @@
+Envelop: "script"
+#call stdio
+#call math
+
+--- Sample Launch Demo ---
+try:
+  write("Initializing Eger Language Engine...")
+  write(div(10, 2))
+flag:
+  write("System Flag Triggered: An error occurred inside this block!")
